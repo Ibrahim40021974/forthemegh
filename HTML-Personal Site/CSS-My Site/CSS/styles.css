@@ -1,7 +1,7 @@
 body, html{
   text-align: center;
   font-family: 'Nanum Myeongjo', serif;
-  margin: 0;
+  margin: 0 !important;
   height: 100%;
 
 }
@@ -53,7 +53,7 @@ h1{
     font-weight: 800;
 }
 h2{
-
+margin: 0 !important;
   padding: 0 20px 20px 20px;
   font-weight: 800;
   color:#66BFBF;
@@ -70,10 +70,8 @@ h3{
 
 p{  font-family: 'Roboto Slab', serif;
   font-size: 1.5rem;
-  position: relative;
   bottom: 50px;
-  padding: 20px;
-line-height: 1.5;
+    margin: 0 !important;
 }
 
 .ik{
